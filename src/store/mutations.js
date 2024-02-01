@@ -1,3 +1,3 @@
-export function setSearchedMeals(state, meals){
-    state.searchedMeals = meals.meals || []
+export function setSearchedMeals(state, meals) {
+  state.searchedMeals = meals.meals || [];
 }

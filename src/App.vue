@@ -1,8 +1,6 @@
 <template>
-  <header>
-    <router-link :to="{ name: 'byIngredient' }"
-      >Search by Ingredients</router-link
-    >
+  <header class="flex items-center h-20 w-full bg-orange-500">
+    <div>Meals from all over the world</div>
   </header>
   <main><router-view /></main>
 </template>
