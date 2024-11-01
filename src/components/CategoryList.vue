@@ -4,7 +4,7 @@
       @click="showMealsByCategory(category.strCategory)"
       v-for="category of categories"
       :key="category.strCategory"
-      class="p-3 m-2 border border-gray-300 rounded hover:bg-orange-500 hover:text-white transition-colors duration-300 hover:cursor-pointer"
+      class="p-3 m-1 border border-gray-300 rounded hover:bg-orange-600 hover:text-white transition-colors duration-300 hover:cursor-pointer"
     >
       {{ category.strCategory }}
     </div>
