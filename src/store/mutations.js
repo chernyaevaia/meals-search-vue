@@ -8,6 +8,6 @@ export function setCategories(state, categories) {
   state.categories = categories.meals || [];
 }
 
-export function setIngredients(state, ingredients) {
-  state.ingredients = ingredients.meals || [];
+export function setMealDetails(state, mealDetails) {
+  state.mealDetails = mealDetails.meals || [];
 }

@@ -13,5 +13,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 onMounted(() => {
   store.dispatch("getRandomMeal");
+  store.dispatch("getCuisines")
+  store.dispatch("getCategories")
 });
 </script>
