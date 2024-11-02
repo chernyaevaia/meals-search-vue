@@ -4,7 +4,7 @@ import MealDetails from "../views/MealDetails.vue";
 
 const routes = [
   {
-    path: "/meals-search-vue/",
+    path: "/",
     name: "home",
     component: Home,
   },
@@ -16,7 +16,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/meals-search-vue/"),
   routes,
 });
 
