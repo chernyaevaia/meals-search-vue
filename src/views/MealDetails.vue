@@ -1,5 +1,5 @@
 <template>
-  <a href="/">
+  <a href="/meals-search-vue">
     <button
       type="button"
       class="text-orange-800 mt-8 ml-8 border border-solid border-red-700 focus:outline-none focus:ring-4 font-medium px-5 py-2.5 text-center me-2 mb-2"
