@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+To start the app locally, run **yarn run dev**
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+The app has a search panes where you can choose a category or a cuisine or use the search input. You will get a list of meals as a result. If you click o a meal, you will go to the page with meal details.
 
-## Recommended IDE Setup
+<img width="1433" alt="Снимок экрана 2024-11-02 в 10 45 02" src="https://github.com/user-attachments/assets/18ae5e2e-af12-4f42-90cc-1454ab495c17">
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+**List of meals:**
+
+<img width="1399" alt="Снимок экрана 2024-11-02 в 10 48 59" src="https://github.com/user-attachments/assets/ff4685c5-e5bb-47ba-b974-fdc77723a1bc">
+
+
+**Meal details:**
+
+<img width="627" alt="Снимок экрана 2024-11-02 в 10 51 18" src="https://github.com/user-attachments/assets/bc7d0ffd-72e7-4642-9fff-a55e0f72364a">
+
